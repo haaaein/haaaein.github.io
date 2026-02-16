@@ -66,7 +66,7 @@ const projects = [
   location = {Barcelona, Spain},
   series = {CHI '26}
 }`,
-    relatedPublications: [],
+    relatedPublications: [1],
   },
   {
     id: 2,
@@ -186,7 +186,7 @@ const projects = [
   location = {Abu Dhabi, UAE},
   series = {COLING 2025}
 }`,
-    relatedPublications: [],
+    relatedPublications: [5],
   },
   {
     id: 4,
@@ -238,7 +238,7 @@ const projects = [
           "The risk management methodology is grounded in ISO 31000:2018 standards. Eight Key Risk Factors (KRFs) are identified through systematic collection and deduplication of risk factors from existing classification systems. The framework includes comparative evaluation against existing risk management approaches to verify effectiveness, and practical application to actual AI systems to demonstrate validity.",
       },
     ],
-    relatedPublications: [],
+    relatedPublications: [11],
   },
   {
     id: 6,
@@ -290,7 +290,7 @@ const projects = [
           "We conducted user studies with fashion domain experts to evaluate the impact of LLM-generated explanations on recommendation usage. Participants assessed recommendations across multiple dimensions including perceived usefulness, trust, transparency, and decision confidence. Preliminary findings indicate that natural language explanations significantly improve users' understanding of why items were recommended and increase their willingness to act on suggestions, particularly when explanations reference specific style attributes or contextual compatibility factors that align with expert knowledge.",
       },
     ],
-    relatedPublications: [7, 9],
+    relatedPublications: [4, 7, 9],
   },
   {
     id: 7,
