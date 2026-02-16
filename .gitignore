@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Source data (originals)
-data/
+/data/
