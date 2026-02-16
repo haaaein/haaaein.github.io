@@ -97,9 +97,6 @@ const projects = [
         title: "Motivation",
         content:
           "While recent LLM-based profiling methods have advanced transparency compared to traditional black-box models, they often generate unstructured summaries of past behavior without theoretical grounding. This limits their ability to explain the 'why' behind user actions. TRIPLE addresses this by integrating dual-process theory, distinguishing between habitual (automatic) and intentional (deliberate) behavioral processes.",
-        image: "/images/fig-triple-p1-1.png",
-        imageCaption:
-          "Figure: Comparison of empirical-based user profiling (top) vs. TRIPLE's theory-guided dual-process user profiling (bottom).",
       },
       {
         title: "Framework",
@@ -157,9 +154,6 @@ const projects = [
         title: "Motivation",
         content:
           "For latent and relative characteristics like personality, comparing different perspectives may be more effective than a single assessment approach. Direct assessment often struggles to capture the nuanced, relative nature of personality traits, while comparative assessment between contrasting viewpoints can better determine trait levels.",
-        image: "/images/fig-pado-p1-2.png",
-        imageCaption:
-          "Figure: Research motivation. Comparative assessment between contrasting perspectives yields more accurate personality predictions than direct assessment.",
       },
       {
         title: "Framework",
@@ -228,9 +222,6 @@ const projects = [
         title: "Risk Management Framework",
         content:
           "The framework introduces a cyclical process of risk management: Identify, Analyse, Evaluate, and Treat, supported by continuous Monitoring, Review, and Reporting. Three alignment principles (3P)\u2014Primacy of Humanity, Persistence of Goal, and Preservation of Value\u2014serve as the foundation for integrated risk management across all stages of GPAI development.",
-        image: "/images/fig-gpai-p7-4.png",
-        imageCaption:
-          "Figure: General-Purpose AI Risk Management Framework showing the cyclical process of Identify, Analyse, Evaluate, Treat with Monitoring, Review, and Reporting.",
       },
       {
         title: "Methodology",
@@ -273,9 +264,6 @@ const projects = [
         title: "Method",
         content:
           "We develop an LLM-based content-based explanation generation approach that analyzes item attributes, user preferences, and contextual information to produce coherent and informative explanations. Additionally, a decision-support dashboard is designed to help fashion experts evaluate and refine recommendations with the aid of generated explanations.",
-        image: "/images/fig-mos-1.png",
-        imageCaption:
-          "Figure: MOS decision-support dashboard for fashion experts, enabling keyword-based search and visual recommendation browsing.",
       },
       {
         title: "Recommendation Results",
