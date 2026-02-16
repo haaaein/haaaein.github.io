@@ -281,6 +281,46 @@ const projects = [
     ],
     relatedPublications: [4, 7, 9],
   },
+  {
+    id: 7,
+    slug: "metapath",
+    shortName: "Meta-path",
+    title: "Fashion Preference Modeling with Meta-path Graph",
+    shortDescription:
+      "A study on personal fashion preference in social media using meta-path based heterogeneous graph modeling.",
+    image: null,
+    tags: ["Graph Modeling", "Fashion", "Social Media"],
+    period: "2023 - 2024",
+    fullTitle:
+      "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling",
+    authors: [
+      { name: "Eunji Kim" },
+      { name: "Haein Yeo", highlight: true },
+      { name: "Kyungsik Han", corresponding: true },
+    ],
+    venue: "Journal of KIISE",
+    venueNote: "Invited paper from KSC 2023",
+    projectType: "Research",
+    abstract:
+      "Understanding personal fashion preferences in social media requires capturing complex relationships between users, fashion items, and contextual attributes. This study proposes a meta-path based heterogeneous graph modeling approach to analyze personal fashion preferences from social media data. By leveraging heterogeneous information networks that encode diverse relationships among users, items, and attributes, the model captures nuanced preference patterns that traditional collaborative filtering methods often miss.",
+    links: {
+      paper: "/papers/2025_KTCP_metapath.pdf",
+      doi: "https://doi.org/10.5626/KTCP.2025.31.1.62",
+    },
+    sections: [
+      {
+        title: "Overview",
+        content:
+          "Fashion preference modeling in social media presents unique challenges due to the heterogeneous nature of the data involved. Users interact with fashion items through multiple channels—likes, saves, purchases, and comments—each conveying different preference signals. This project addresses these challenges by constructing heterogeneous information networks and designing meta-paths that capture meaningful semantic relationships between entities.",
+      },
+      {
+        title: "Method",
+        content:
+          "We construct a heterogeneous graph that connects users, fashion items, and attributes (such as style, color, and brand) through various relation types. Meta-paths are defined to capture different aspects of preference—for example, User-Item-Attribute paths capture style preferences, while User-User-Item paths capture social influence patterns. The model aggregates information along these meta-paths to generate rich user and item representations for preference prediction.",
+      },
+    ],
+    relatedPublications: [6, 10],
+  },
 ];
 
 export default projects;
