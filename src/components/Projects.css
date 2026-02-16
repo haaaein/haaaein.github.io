@@ -16,7 +16,7 @@
 .projects__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 32px 24px;
+  gap: 24px 24px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -38,8 +38,8 @@
 }
 
 .projects__icon {
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
