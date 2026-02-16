@@ -15,7 +15,7 @@ const profile = {
     "AI for Social Good",
   ],
   links: {
-    googleScholar: "",
+    googleScholar: "https://scholar.google.com/citations?user=ORZoZv4AAAAJ&hl=en",
     github: "https://github.com/haaaein",
     linkedin: "https://www.linkedin.com/in/haein-yeo-7b875a255/",
     cv: "/cv.pdf",

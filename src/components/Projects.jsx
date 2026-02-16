@@ -36,7 +36,12 @@ export default function Projects() {
             style={{ "--delay": `${index * 0.08}s` }}
           >
             <div className="projects__icon">
-              <span className="projects__emoji">{project.emoji}</span>
+              <img
+                src={project.figure || project.image}
+                alt={project.shortName || project.title}
+                className="projects__figure"
+              />
+              <span className="projects__emoji" hidden>{project.emoji}</span>
             </div>
             <span className="projects__name">
               {project.shortName || project.title}

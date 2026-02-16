@@ -72,7 +72,7 @@ export default function About() {
 
         <div className="about__description fade-in" style={{ "--delay": "0.3s" }}>
           <p>
-            Hi! I'm a Ph.D student in the Department of Artificial Intelligence at Hanyang University.
+            Hello! I'm a Ph.D student in the Department of Artificial Intelligence at Hanyang University.
             I am advised by{" "}
             <a href="https://scholar.google.com/citations?user=htyp0xsAAAAJ&hl=ko" target="_blank" rel="noopener noreferrer" className="about__link">
               Prof. Kyungsik Han
