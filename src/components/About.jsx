@@ -124,6 +124,30 @@ export default function About() {
               <img src="/images/aaai-singapore-1.jpg" alt="AAAI 2026, Singapore" />
               <span className="about__gallery-caption">AAAI 2026, Singapore</span>
             </div>
+            <div className="about__gallery-item">
+              <img src="/images/aaai-singapore-2.jpg" alt="AAAI 2026, Singapore" />
+              <span className="about__gallery-caption">AAAI 2026, Singapore</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/aaai-singapore-3.jpg" alt="AAAI 2026, Singapore" />
+              <span className="about__gallery-caption">AAAI 2026, Singapore</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/aaai-singapore-4.jpg" alt="AAAI 2026, Singapore" />
+              <span className="about__gallery-caption">AAAI 2026, Singapore</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/aaai-singapore-5.jpg" alt="AAAI 2026, Singapore" />
+              <span className="about__gallery-caption">AAAI 2026, Singapore</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/chi-hawaii-3.jpg" alt="CHI 2024, Hawaii" />
+              <span className="about__gallery-caption">CHI 2024, Hawaii</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/chi-hawaii-4.jpg" alt="CHI 2024, Hawaii" />
+              <span className="about__gallery-caption">CHI 2024, Hawaii</span>
+            </div>
           </div>
         </div>
       </div>

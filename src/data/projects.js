@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     slug: "deception",
     shortName: "Deception",
-    emoji: "🎭",
+    emoji: "🤥",
     area: "both",
     title: "Can LLMs Persuade Humans with Deception?",
     shortDescription:
@@ -300,7 +300,7 @@ const projects = [
     title: "Fashion Preference Modeling with Meta-path Graph",
     shortDescription:
       "A study on personal fashion preference in social media using meta-path based heterogeneous graph modeling.",
-    image: null,
+    image: "/images/fig-metapath-1.png",
     tags: ["Graph Modeling", "Fashion", "Social Media"],
     period: "2023 - 2024",
     fullTitle:
