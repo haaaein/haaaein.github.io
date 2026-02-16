@@ -113,14 +113,6 @@ export default function About() {
               <span className="about__gallery-caption">CHI 2024, Hawaii</span>
             </div>
             <div className="about__gallery-item">
-              <img src="/images/chi-hawaii-3.jpg" alt="CHI 2024, Hawaii" />
-              <span className="about__gallery-caption">CHI 2024, Hawaii</span>
-            </div>
-            <div className="about__gallery-item">
-              <img src="/images/chi-hawaii-4.jpg" alt="CHI 2024, Hawaii" />
-              <span className="about__gallery-caption">CHI 2024, Hawaii</span>
-            </div>
-            <div className="about__gallery-item">
               <img src="/images/emnlp-miami-1.jpg" alt="EMNLP 2024, Miami" />
               <span className="about__gallery-caption">EMNLP 2024, Miami</span>
             </div>
@@ -139,14 +131,6 @@ export default function About() {
             <div className="about__gallery-item">
               <img src="/images/aaai-singapore-3.jpg" alt="AAAI 2026, Singapore" />
               <span className="about__gallery-caption">AAAI 2026, Singapore</span>
-            </div>
-            <div className="about__gallery-item">
-              <img src="/images/aaai-singapore-4.jpg" alt="AAAI 2026, Singapore" />
-              <span className="about__gallery-caption">AAAI 2026, Singapore</span>
-            </div>
-            <div className="about__gallery-item">
-              <img src="/images/aaai-singapore-5.jpg" alt="AAAI 2026, Singapore" />
-              <span className="about__gallery-caption">CHI 2024, Hawaii</span>
             </div>
           </div>
         </div>
