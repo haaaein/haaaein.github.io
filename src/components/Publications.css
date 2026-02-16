@@ -1,0 +1,160 @@
+.publications {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px 100px;
+}
+
+.publications__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #1a1a1a;
+  margin: 0 0 24px;
+}
+
+.publications__categories {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.publications__category {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1a1a1a;
+  background: none;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.publications__category:hover {
+  background-color: rgba(0, 87, 255, 0.05);
+}
+
+.publications__category--active {
+  background-color: rgba(0, 87, 255, 0.1);
+  color: #0057ff;
+  font-weight: 600;
+}
+
+.publications__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.pub {
+  padding: 24px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pub:first-child {
+  padding-top: 0;
+}
+
+.pub__main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pub__title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1a1a1a;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.pub__authors {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #2a2a2a;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.pub__author--highlight {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #2a2a2a;
+}
+
+.pub__venue {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pub__venue-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #2a2a2a;
+  font-style: italic;
+}
+
+.pub__venue-note {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #667085;
+  font-style: italic;
+}
+
+.pub__year {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #3c3c3c;
+}
+
+.pub__extras {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.pub__award {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #0057ff;
+  background-color: rgba(0, 87, 255, 0.08);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.pub__link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #4a4a4a;
+  text-decoration: none;
+  background-color: #f4f4f4;
+  padding: 3px 8px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.pub__link:hover {
+  color: #0057ff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 719px) {
+  .publications {
+    padding: 40px 16px 80px;
+  }
+
+  .publications__categories {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,26 @@
+const profile = {
+  name: "Haein Yeo",
+  nameKo: "여해인",
+  role: "AI Researcher",
+  affiliation: "Hanyang University",
+  degree: "Ph.D Student",
+  advisor: "Advisor: Kyungsik Han",
+  email: "haeinyeo@hanyang.ac.kr",
+  description:
+    "My research lies at the intersection of Natural Language Processing (NLP) and Human-Computer Interaction (HCI), with a focus on LLM-human alignment, human-centered evaluation, and AI for social good. I approach these topics from an AI safety perspective, aiming to design AI systems that align with human values, foster trust, and contribute to positive societal impact.",
+  researchInterests: [
+    "AI Alignment",
+    "Human-centered Evaluation",
+    "AI for Policy & Governance",
+    "AI for Social Good",
+  ],
+  links: {
+    googleScholar: "",
+    github: "https://github.com/haaaein",
+    linkedin: "https://www.linkedin.com/in/haein-yeo-7b875a255/",
+    cv: "/cv.pdf",
+  },
+  profileImage: "/images/profile.jpg",
+};
+
+export default profile;
