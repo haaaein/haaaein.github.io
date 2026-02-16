@@ -4,6 +4,147 @@
   padding: 80px 24px 120px;
 }
 
+/* ===== Toggle ===== */
+.projects__toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.projects__toggle-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #667085;
+  background: none;
+  border: 1.5px solid #d0d5dd;
+  padding: 10px 32px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.projects__toggle-btn:first-child {
+  border-radius: 8px 0 0 8px;
+  border-right: none;
+}
+
+.projects__toggle-btn:last-child {
+  border-radius: 0 8px 8px 0;
+}
+
+.projects__toggle-btn--active {
+  color: #1a1a1a;
+  font-weight: 600;
+  background: #f5f5f5;
+}
+
+/* ===== Venn Diagram ===== */
+.venn {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 10;
+}
+
+.venn__label {
+  position: absolute;
+  top: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+.venn__label--left {
+  left: 18%;
+}
+
+.venn__label--right {
+  right: 18%;
+}
+
+.venn__circle {
+  position: absolute;
+  top: 32px;
+  width: 58%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1.5px solid #d0d5dd;
+}
+
+.venn__circle--left {
+  left: 2%;
+}
+
+.venn__circle--right {
+  right: 2%;
+}
+
+.venn__content {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.venn__area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px;
+}
+
+.venn__area--left {
+  flex: 1;
+  padding-left: 6%;
+  padding-right: 0;
+}
+
+.venn__area--center {
+  flex: 0 0 28%;
+  justify-content: center;
+}
+
+.venn__area--right {
+  flex: 1;
+  padding-right: 6%;
+  padding-left: 0;
+}
+
+.venn__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.venn__item:hover {
+  transform: scale(1.08);
+}
+
+.venn__emoji {
+  font-size: 56px;
+  line-height: 1;
+}
+
+.venn__name {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+/* ===== Grid View ===== */
 .projects__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -42,18 +183,9 @@
   object-fit: contain;
 }
 
-.projects__icon-placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #f0f4ff 0%, #e8eeff 50%, #dde5ff 100%);
-  border-radius: 50%;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  color: #0057ff;
+.projects__emoji {
+  font-size: 80px;
+  line-height: 1;
 }
 
 .projects__name {
@@ -64,9 +196,47 @@
   text-align: center;
 }
 
+/* ===== Responsive ===== */
 @media screen and (max-width: 719px) {
   .projects {
     padding: 60px 16px 80px;
+  }
+
+  .venn {
+    aspect-ratio: auto;
+    min-height: 500px;
+  }
+
+  .venn__circle {
+    width: 70%;
+  }
+
+  .venn__circle--left {
+    left: -5%;
+  }
+
+  .venn__circle--right {
+    right: -5%;
+  }
+
+  .venn__label--left {
+    left: 8%;
+  }
+
+  .venn__label--right {
+    right: 8%;
+  }
+
+  .venn__emoji {
+    font-size: 40px;
+  }
+
+  .venn__name {
+    font-size: 12px;
+  }
+
+  .venn__area {
+    gap: 16px;
   }
 
   .projects__grid {

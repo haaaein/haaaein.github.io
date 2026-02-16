@@ -3,6 +3,8 @@ const projects = [
     id: 1,
     slug: "deception",
     shortName: "Deception",
+    emoji: "🎭",
+    area: "both",
     title: "Can LLMs Persuade Humans with Deception?",
     shortDescription:
       "A large-scale empirical study on LLM deceptive persuasion strategies and their effects on user perceptions, presented at CHI 2026.",
@@ -70,6 +72,8 @@ const projects = [
     id: 2,
     slug: "triple",
     shortName: "TRIPLE",
+    emoji: "🧠",
+    area: "nlp",
     title: "TRIPLE: Theory-Driven LLM-based Personalization",
     shortDescription:
       "A novel framework integrating dual-process theory from social psychology into LLM-based user modeling for personalization. Published at AAAI 2026 (Oral).",
@@ -125,6 +129,8 @@ const projects = [
     id: 3,
     slug: "pado",
     shortName: "PADO",
+    emoji: "👥",
+    area: "nlp",
     title: "PADO: Personality-induced Multi-Agents for Detecting OCEAN",
     shortDescription:
       "The first LLM-based multi-agent personality detection framework that compares contrasting perspectives to capture the relative nature of personality traits. Published at COLING 2025 (Oral).",
@@ -185,6 +191,8 @@ const projects = [
     id: 4,
     slug: "rcs-gpai",
     shortName: "RCS-GPAI",
+    emoji: "🛡️",
+    area: "both",
     title: "General-Purpose AI Risk Management Framework",
     shortDescription:
       "A comprehensive risk management framework for General-Purpose AI, developed in collaboration with Center for Trustworthy AI, TTA.",
@@ -235,6 +243,8 @@ const projects = [
     id: 6,
     slug: "mos",
     shortName: "MOS",
+    emoji: "👗",
+    area: "hci",
     title: "MOS: Explainable Recommender Systems",
     shortDescription:
       "Development of an LLM-based explanation generation methodology for explainable recommender systems and a decision-support dashboard for fashion experts.",
@@ -285,6 +295,8 @@ const projects = [
     id: 7,
     slug: "metapath",
     shortName: "Meta-path",
+    emoji: "🔗",
+    area: "hci",
     title: "Fashion Preference Modeling with Meta-path Graph",
     shortDescription:
       "A study on personal fashion preference in social media using meta-path based heterogeneous graph modeling.",
