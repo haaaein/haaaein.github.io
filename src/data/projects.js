@@ -124,7 +124,7 @@ const projects = [
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
   series = {AAAI '26}
 }`,
-    relatedPublications: [3],
+    relatedPublications: [2, 3],
   },
   {
     id: 3,
