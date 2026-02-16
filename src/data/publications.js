@@ -147,7 +147,7 @@ const publications = [
     venue: "KSC",
     year: 2023,
     type: "Conference",
-    award: "Best Presentation Award",
+    award: null,
     links: {},
   },
   {
@@ -158,7 +158,7 @@ const publications = [
     venue: "KSC",
     year: 2023,
     type: "Conference",
-    award: null,
+    award: "Best Presentation Award",
     links: {},
   },
 ];

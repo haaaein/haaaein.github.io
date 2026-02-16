@@ -53,7 +53,7 @@ const projects = [
       {
         title: "Key Findings",
         content:
-          "Participants were particularly vulnerable to Information Manipulation and Uncertainty Exploitation strategies, especially when messages contradicted their prior beliefs. Vulnerability was significantly higher for participants with low cognitive reflection, low topic knowledge, and low topic involvement. Notably, participants were persuaded by the plausibility of an overall narrative even when they distrusted specific details.",
+          "Our results reveal that deceptive persuasion operates at the narrative level rather than the factual level: participants shifted their beliefs when an argument constructed a plausible overall story, even when they explicitly flagged individual claims as questionable. This suggests that current fact-checking literacy may be insufficient against LLM-generated deception. Individual differences further moderated susceptibility—cognitive reflection, domain knowledge, and topic involvement each independently reduced vulnerability—pointing to targeted interventions rather than one-size-fits-all defenses. Think-aloud analyses additionally uncovered that participants often reframed deceptive outputs as 'a different perspective worth considering,' indicating that LLM-generated arguments can bypass skepticism by mimicking the structure of balanced discourse.",
       },
     ],
     bibtex: `@inproceedings{yeo2026deception,
@@ -66,13 +66,14 @@ const projects = [
   location = {Barcelona, Spain},
   series = {CHI '26}
 }`,
-    relatedPublications: [1],
+    relatedPublications: [],
   },
   {
     id: 2,
     slug: "triple",
     shortName: "TRIPLE",
     emoji: "🧠",
+    figure: "/images/fig-triple-framework.png",
     area: "nlp",
     title: "TRIPLE: Theory-Driven LLM-based Personalization",
     shortDescription:
@@ -105,7 +106,7 @@ const projects = [
       {
         title: "Framework",
         content:
-          "TRIPLE processes user history into habitual and intentional profiles, which are then synthesized through behavioral rationale generation to produce personalized predictions. The framework constructs (1) habitual behavior profiles by identifying repeated patterns over time, (2) intentional behavior profiles by inferring attitudes, subjective norms, and perceived behavioral control based on the Theory of Planned Behavior, and (3) behavioral rationale that reveals the interaction between habitual and intentional processes.",
+          "TRIPLE implements a three-stage pipeline that transforms raw interaction histories into psychologically grounded user profiles. In the first stage, the LLM performs temporal pattern extraction over a user's chronological behavior log, clustering recurring actions into a structured habitual profile that summarizes automatic behavioral tendencies. The second stage applies the Theory of Planned Behavior (TPB) as an explicit prompting scaffold: the LLM is instructed to infer the user's attitudes toward items, perceived subjective norms from social signals, and perceived behavioral control from contextual constraints, producing an intentional behavior profile. Finally, a rationale generation step synthesizes both profiles by prompting the LLM to reason about when habitual defaults are likely to govern behavior versus when deliberate intentions override them, yielding context-specific behavioral predictions used for downstream personalization tasks.",
         image: "/images/fig-triple-framework.png",
         imageCaption:
           "Figure: Overview of TRIPLE framework, showing how user history is processed into habitual and intentional profiles.",
@@ -123,7 +124,7 @@ const projects = [
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
   series = {AAAI '26}
 }`,
-    relatedPublications: [2, 3],
+    relatedPublications: [3],
   },
   {
     id: 3,
@@ -148,7 +149,7 @@ const projects = [
     venue: "COLING 2025",
     venueNote: "Oral, Top 7.9%",
     abstract:
-      "As personality can be useful in many cases, such as better understanding people's underlying contexts or providing personalized services, research has long focused on modeling personality from data. However, the development of personality detection models faces challenges due to the inherent latent and relative characteristics of personality, as well as the lack of annotated datasets. To address these challenges, our research focuses on methods that effectively exploit the inherent knowledge of Large Language Models (LLMs). We propose a novel approach that compares contrasting perspectives to better capture the relative nature of personality traits. In this paper, we introduce PADO (Personality-induced multi-Agent framework for Detecting OCEAN of the Big Five personality traits), the first LLM-based multi-agent personality detection framework.",
+      "Detecting personality traits from text is valuable for understanding user contexts and enabling personalized services, yet it remains challenging due to personality's latent and relative nature and the scarcity of annotated datasets. To address these challenges, we leverage the inherent knowledge of Large Language Models (LLMs) and propose a novel approach that compares contrasting perspectives to better capture the relative nature of personality traits. We introduce PADO (Personality-induced multi-Agent framework for Detecting OCEAN of the Big Five personality traits), the first LLM-based multi-agent personality detection framework.",
     links: {
       paper: "/papers/2025_COLING_PADO.pdf",
       doi: "https://aclanthology.org/2025.coling-main.382/",
@@ -185,7 +186,7 @@ const projects = [
   location = {Abu Dhabi, UAE},
   series = {COLING 2025}
 }`,
-    relatedPublications: [5],
+    relatedPublications: [],
   },
   {
     id: 4,
@@ -237,7 +238,7 @@ const projects = [
           "The risk management methodology is grounded in ISO 31000:2018 standards. Eight Key Risk Factors (KRFs) are identified through systematic collection and deduplication of risk factors from existing classification systems. The framework includes comparative evaluation against existing risk management approaches to verify effectiveness, and practical application to actual AI systems to demonstrate validity.",
       },
     ],
-    relatedPublications: [11],
+    relatedPublications: [],
   },
   {
     id: 6,
@@ -278,7 +279,7 @@ const projects = [
       {
         title: "Recommendation Results",
         content:
-          "Given a selected fashion image, the system generates recommendations using multiple algorithms and presents them side by side, allowing experts to compare and evaluate different recommendation strategies.",
+          "Given a selected fashion image, the system generates recommendations using multiple algorithms—including content-based filtering, collaborative filtering, and hybrid approaches—and presents them side by side within the dashboard. This multi-algorithm comparison allows fashion experts to examine how different strategies surface items based on visual similarity, co-purchase patterns, or attribute overlap, and to assess which algorithmic rationale best aligns with their domain expertise before making curation decisions.",
         image: "/images/fig-mos-2.png",
         imageCaption:
           "Figure: Recommendation results comparison across different algorithms for a selected fashion image.",
@@ -286,10 +287,10 @@ const projects = [
       {
         title: "User Study",
         content:
-          "Through user studies examining perception and experience differences across recommendation domains, we investigate how LLM-generated explanations affect user satisfaction, trust, and decision-making quality in fashion recommender systems.",
+          "We conducted user studies with fashion domain experts to evaluate the impact of LLM-generated explanations on recommendation usage. Participants assessed recommendations across multiple dimensions including perceived usefulness, trust, transparency, and decision confidence. Preliminary findings indicate that natural language explanations significantly improve users' understanding of why items were recommended and increase their willingness to act on suggestions, particularly when explanations reference specific style attributes or contextual compatibility factors that align with expert knowledge.",
       },
     ],
-    relatedPublications: [4, 7, 9],
+    relatedPublications: [7, 9],
   },
   {
     id: 7,
@@ -331,7 +332,17 @@ const projects = [
           "We construct a heterogeneous graph that connects users, fashion items, and attributes (such as style, color, and brand) through various relation types. Meta-paths are defined to capture different aspects of preference—for example, User-Item-Attribute paths capture style preferences, while User-User-Item paths capture social influence patterns. The model aggregates information along these meta-paths to generate rich user and item representations for preference prediction.",
       },
     ],
-    relatedPublications: [6, 10],
+    bibtex: `@article{kim2025metapath,
+  author = {Kim, Eunji and Yeo, Haein and Han, Kyungsik},
+  title = {A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling},
+  journal = {Journal of KIISE},
+  volume = {31},
+  number = {1},
+  pages = {62--73},
+  year = {2025},
+  doi = {10.5626/KTCP.2025.31.1.62}
+}`,
+    relatedPublications: [10],
   },
 ];
 
