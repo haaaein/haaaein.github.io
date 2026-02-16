@@ -23,7 +23,7 @@ const projects = [
       { name: "Kyungsik Han", corresponding: true },
     ],
     venue: "CHI 2026",
-    venueNote: null,
+    venueNote: "Oral",
     abstract:
       "Beyond hallucinations, Large Language Models (LLMs) can craft deceptive arguments that erode users' critical thinking, posing a significant yet underexamined societal risk. To address this gap, we develop a taxonomy of eight deceptive persuasion strategies by integrating top-down rhetorical theory with a bottom-up analysis of 3,360 AI-generated messages by four LLM families and examining their effects on user perceptions. Through a large-scale user study (N=602) complemented by a think-aloud protocol, we found that participants were vulnerable to Information Manipulation and Uncertainty Exploitation, especially when a message contradicted their prior beliefs. Vulnerability was significantly higher for participants with low cognitive reflection, low topic knowledge, and low topic involvement. Qualitative analyses further revealed that participants were persuaded by the plausibility of an overall narrative even when they distrusted specific details, interpreting deceptive outputs as logically framed information that broadened their perspective.",
     projectType: "Research",
