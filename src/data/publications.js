@@ -76,7 +76,7 @@ const publications = [
       "Sohyun Park",
       "Junghyun Kim",
     ],
-    venue: "In collaboration with TTA & Center for Trustworthy AI",
+    venue: "In collaboration with Center for Trustworthy AI, TTA",
     year: 2025,
     type: "Report/Book",
     award: null,

@@ -187,7 +187,7 @@ const projects = [
     shortName: "RCS-GPAI",
     title: "General-Purpose AI Risk Management Framework",
     shortDescription:
-      "A comprehensive risk management framework for General-Purpose AI, developed in collaboration with TTA and the Center for Trustworthy AI.",
+      "A comprehensive risk management framework for General-Purpose AI, developed in collaboration with Center for Trustworthy AI, TTA.",
     image: "/images/fig-gpai-p7-4.png",
     tags: ["Trustworthy AI", "Risk Management", "GPAI"],
     period: "Apr. 2024 - Dec. 2024",
@@ -205,7 +205,7 @@ const projects = [
     ],
     venue: null,
     venueNote: null,
-    collaboration: "TTA (Telecommunications Technology Association), Center for Trustworthy AI",
+    collaboration: "Center for Trustworthy AI, TTA",
     projectType: "Report",
     abstract:
       "As General-Purpose AI (GPAI) advances, managing the associated risks becomes increasingly critical. This report presents a comprehensive risk management framework for GPAI, developed in collaboration with TTA and the Center for Trustworthy AI under the Ministry of Science and ICT. The framework defines three alignment principles for GPAI behavior\u2014Primacy of Humanity, Persistence of Goal, and Preservation of Value (3P)\u2014and proposes a systematic risk classification with eight Key Risk Factors (KRFs). The methodology is grounded in ISO 31000:2018 and validated through comparative evaluation and application to actual AI systems.",
