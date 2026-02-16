@@ -26,6 +26,7 @@ export default function Projects() {
 
   return (
     <section className="projects" ref={sectionRef}>
+      <h1 className="projects__title fade-in" style={{ "--delay": "0s" }}>Research Projects</h1>
       <div className="projects__grid">
         {projects.map((project, index) => (
           <Link
