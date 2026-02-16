@@ -105,20 +105,20 @@ export default function About() {
           <h2 className="about__section-title">Conference Gallery</h2>
           <div className="about__gallery-grid">
             <div className="about__gallery-item">
-              <img src="/images/chi-hawaii-1.jpg" alt="CHI 2024, Hawaii" />
-              <span className="about__gallery-caption">CHI 2024, Hawaii</span>
+              <img src="/images/chi-hawaii-1.jpg" alt="CHI 2024, Hawaii, USA" />
+              <span className="about__gallery-caption">CHI 2024, Hawaii, USA</span>
             </div>
             <div className="about__gallery-item">
-              <img src="/images/chi-hawaii-2.jpg" alt="CHI 2024, Hawaii" />
-              <span className="about__gallery-caption">CHI 2024, Hawaii</span>
+              <img src="/images/chi-hawaii-2.jpg" alt="CHI 2024, Hawaii, USA" />
+              <span className="about__gallery-caption">CHI 2024, Hawaii, USA</span>
             </div>
             <div className="about__gallery-item">
-              <img src="/images/emnlp-miami-1.jpg" alt="EMNLP 2024, Miami" />
-              <span className="about__gallery-caption">EMNLP 2024, Miami</span>
+              <img src="/images/emnlp-miami-1.jpg" alt="EMNLP 2024, Miami, USA" />
+              <span className="about__gallery-caption">EMNLP 2024, Miami, USA</span>
             </div>
             <div className="about__gallery-item">
-              <img src="/images/emnlp-miami-2.jpg" alt="EMNLP 2024, Miami" />
-              <span className="about__gallery-caption">EMNLP 2024, Miami</span>
+              <img src="/images/emnlp-miami-2.jpg" alt="EMNLP 2024, Miami, USA" />
+              <span className="about__gallery-caption">EMNLP 2024, Miami, USA</span>
             </div>
             <div className="about__gallery-item">
               <img src="/images/aaai-singapore-1.jpg" alt="AAAI 2026, Singapore" />
