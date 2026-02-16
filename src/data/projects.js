@@ -191,7 +191,7 @@ const projects = [
     id: 4,
     slug: "rcs-gpai",
     shortName: "GPAI Risk Management Framework",
-    emoji: "🛡️",
+    emoji: "🌐",
     area: "both",
     title: "General-Purpose AI Risk Management Framework",
     shortDescription:
