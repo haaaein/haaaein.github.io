@@ -40,6 +40,11 @@ export default function Projects() {
             <span className="projects__name">
               {project.shortName || project.title}
             </span>
+            <div className="projects__tags">
+              {project.tags.map((tag) => (
+                <span key={tag} className="projects__tag">#{tag}</span>
+              ))}
+            </div>
           </Link>
         ))}
       </div>

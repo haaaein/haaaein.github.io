@@ -9,7 +9,7 @@ const projects = [
     shortDescription:
       "A large-scale empirical study on LLM deceptive persuasion strategies and their effects on user perceptions, presented at CHI 2026.",
     image: "/images/fig-deception-p1-1.png",
-    tags: ["AI Safety", "HCI", "Deception"],
+    tags: ["Human-AI Interaction", "AI Safety", "Deceptive Persuasion", "User Study"],
     period: "2024 - 2026",
     fullTitle:
       '"Can LLMs Persuade Humans with Deception?": From a Deceptive Strategy Taxonomy to a Large-Scale Empirical Study',
@@ -78,7 +78,7 @@ const projects = [
     shortDescription:
       "A novel framework integrating dual-process theory from social psychology into LLM-based user modeling for personalization. Published at AAAI 2026 (Oral).",
     image: "/images/fig-triple-p1-1.png",
-    tags: ["NLP", "Personalization", "User Modeling"],
+    tags: ["NLP", "Personalization", "User Modeling", "Dual-Process Theory"],
     period: "2024 - 2026",
     fullTitle:
       "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization",
@@ -135,7 +135,7 @@ const projects = [
     shortDescription:
       "The first LLM-based multi-agent personality detection framework that compares contrasting perspectives to capture the relative nature of personality traits. Published at COLING 2025 (Oral).",
     image: "/images/fig-pado-p1-2.png",
-    tags: ["NLP", "Multi-Agent", "Personality"],
+    tags: ["NLP", "Multi-Agent", "Personality Detection", "LLM"],
     period: "2024 - 2025",
     fullTitle:
       "PADO: Personality-induced multiAgents for Detecting OCEAN in human-generated texts",
@@ -197,7 +197,7 @@ const projects = [
     shortDescription:
       "A comprehensive risk management framework for General-Purpose AI, developed in collaboration with Center for Trustworthy AI, TTA.",
     image: "/images/fig-gpai-p7-4.png",
-    tags: ["Trustworthy AI", "Risk Management", "GPAI"],
+    tags: ["Trustworthy AI", "Risk Management", "AI Governance", "AI Safety"],
     period: "Apr. 2024 - Dec. 2024",
     fullTitle:
       "Responsible Capability Scaling (RCS) of General-Purpose AI (GPAI)",
@@ -249,7 +249,7 @@ const projects = [
     shortDescription:
       "Development of an LLM-based explanation generation methodology for explainable recommender systems and a decision-support dashboard for fashion experts.",
     image: "/images/fig-mos-1.png",
-    tags: ["LLM", "Recommender Systems", "Explainability"],
+    tags: ["Explainable AI", "Recommender Systems", "Fashion", "LLM"],
     period: "May. 2022 - Present",
     fullTitle:
       "MOS: LLM-Based Explanation Generation for Explainable Fashion Recommender Systems",
@@ -301,7 +301,7 @@ const projects = [
     shortDescription:
       "A study on personal fashion preference in social media using meta-path based heterogeneous graph modeling.",
     image: "/images/fig-metapath-1.png",
-    tags: ["Graph Modeling", "Fashion", "Social Media"],
+    tags: ["Graph Neural Network", "Fashion", "Social Media", "User Preference"],
     period: "2023 - 2024",
     fullTitle:
       "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling",
