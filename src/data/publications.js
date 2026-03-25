@@ -60,7 +60,10 @@ const publications = [
     year: 2025,
     type: "Journal",
     award: null,
-    links: {},
+    links: {
+      pdf: "/papers/2025_FnT_Explanation.pdf",
+      doi: "https://link.springer.com/article/10.1186/s40691-026-00464-z",
+    },
   },
   {
     id: 11,
