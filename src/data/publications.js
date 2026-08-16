@@ -4,8 +4,10 @@ const publications = [
     title:
       "From Preferences to Values: Evaluating Latent User Understanding and Transfer in LLMs",
     authors: ["Taehyung Noh", "Haein Yeo", "Beejin Son", "Kyungsik Han"],
-    venue: "CIKM",
+    venue:
+      "ACM International Conference on Information and Knowledge Management (CIKM)",
     venueNote: "AR 30.9%",
+    month: "November",
     year: 2026,
     type: "Conference",
     award: null,
@@ -26,13 +28,18 @@ const publications = [
       "Hwarim Hyun",
       "Kyungsik Han",
     ],
-    venue: "CHI",
+    venue:
+      "ACM International Conference on Human Factors in Computing Systems (CHI)",
     venueNote: "AR 25.3%",
+    month: "April",
     year: 2026,
     type: "Conference",
     award: null,
     links: {
       pdf: "/papers/2026_CHI_Deception.pdf",
+      slide:
+        "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_CHI_Can_LLMs_Persuade_Humans_with_Deception_Slides.pdf",
+      video: "https://youtu.be/olPdxffw38Q",
       doi: "https://dl.acm.org/doi/10.1145/3772318.3791188",
     },
   },
@@ -43,6 +50,7 @@ const publications = [
     authors: ["Haein Yeo", "Taehyung Noh", "Kyungsik Han"],
     venue: "Fashion and Textiles",
     venueNote: "SCI(E) Q1, JCR IF = 3.7",
+    month: "March",
     year: 2026,
     type: "Journal",
     award: null,
@@ -56,13 +64,19 @@ const publications = [
     title:
       "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization",
     authors: ["Taehyung Noh", "Seungwan Jin", "Haein Yeo", "Kyungsik Han"],
-    venue: "AAAI",
+    venue: "The Association for the Advancement of Artificial Intelligence (AAAI)",
     venueNote: "Oral, AR 4.4%",
+    month: "January",
     year: 2026,
     type: "Conference",
     award: null,
     links: {
       pdf: "/papers/2026_AAAI_TRIPLE.pdf",
+      poster:
+        "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI_Poster.pdf",
+      slide:
+        "https://astlyi.s3.ap-northeast-2.amazonaws.com/2026/2026_TRIPLE_AAAI_Slides.pdf",
+      video: "https://www.youtube.com/watch?v=96bo422tDp4",
       doi: "https://doi.org/10.1609/aaai.v40i21.38818",
     },
   },
@@ -71,13 +85,20 @@ const publications = [
     title:
       "Externalizing Social-Cognitive Structures for User Modeling: Toward Theory-Driven Profiling with LLMs",
     authors: ["Taehyung Noh", "Seungwan Jin", "Haein Yeo", "Kyungsik Han"],
-    venue: "CIKM",
+    venue:
+      "ACM International Conference on Information and Knowledge Management (CIKM)",
     venueNote: "AR 30.6%",
+    month: "November",
     year: 2025,
     type: "Conference",
     award: null,
     links: {
       pdf: "/papers/2025_CIKM_TRIPLE.pdf",
+      poster:
+        "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_Poster.pdf",
+      slide:
+        "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_CIKM_Slides.pdf",
+      video: "https://www.youtube.com/watch?v=QW6qo4MOeL0",
       doi: "https://dl.acm.org/doi/10.1145/3746252.3760965",
     },
   },
@@ -95,7 +116,9 @@ const publications = [
       "Sohyun Park",
       "Junghyun Kim",
     ],
-    venue: "In collaboration with Center for Trustworthy AI, TTA",
+    venue:
+      "Telecommunications Technology Association (TTA), Center for Trustworthy AI",
+    month: "February",
     year: 2025,
     type: "Report/Book",
     award: null,
@@ -108,13 +131,17 @@ const publications = [
     title:
       "PADO: Personality-induced multiAgents for Detecting OCEAN in human-generated texts",
     authors: ["Haein Yeo", "Taehyung Noh", "Seungwan Jin", "Kyungsik Han"],
-    venue: "COLING",
+    venue: "International Conference on Computational Linguistics (COLING)",
     venueNote: "Oral, Top 7.9%",
+    month: "January",
     year: 2025,
     type: "Conference",
     award: null,
     links: {
       pdf: "/papers/2025_COLING_PADO.pdf",
+      slide:
+        "https://astlyi.s3.ap-northeast-2.amazonaws.com/2025/2025_COLING_PADO_Slide.pdf",
+      video: "https://youtu.be/QTQoPADqg14",
       doi: "https://aclanthology.org/2025.coling-main.382/",
     },
   },
@@ -123,8 +150,9 @@ const publications = [
     title:
       "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling",
     authors: ["Eunji Kim", "Haein Yeo", "Kyungsik Han"],
-    venue: "KTCP (KIISE Transactions on Computing Practices)",
+    venue: "KTCP (KIISE Transactions on Computing Practices), 31 (1)",
     venueNote: "Invited paper from KSC 2023",
+    month: "January",
     year: 2025,
     type: "Journal",
     award: null,
@@ -138,12 +166,17 @@ const publications = [
     title:
       "A Study on User Perception and Experience Differences in Recommendation Results by Domain Expertise: The Case of Fashion Domains",
     authors: ["Taehyung Noh", "Haein Yeo", "Myungjin Kim", "Kyungsik Han"],
-    venue: "CHI LBW",
+    venue:
+      "ACM International Conference on Human Factors in Computing Systems (CHI LBW)",
+    month: "April",
     year: 2023,
     type: "Conference",
     award: null,
     links: {
       pdf: "/papers/2023_CHI_LBW_UserPerception.pdf",
+      slide:
+        "https://astlyi.s3.ap-northeast-2.amazonaws.com/2023/CHI_LBW_UserPerception_Slide.pdf",
+      video: "https://youtu.be/L2ZH-R64o3M",
       doi: "https://dl.acm.org/doi/abs/10.1145/3544549.3585641",
     },
   },
@@ -152,7 +185,8 @@ const publications = [
     title:
       "Using Deep Learning-Based Visual Hints to Mitigate Hallucinations in Large Language Model",
     authors: ["Taehyung Noh", "Haein Yeo", "Myungjin Kim", "Kyungsik Han"],
-    venue: "KSC",
+    venue: "The Proceedings of the Korea Software Congress (KSC)",
+    month: "December",
     year: 2023,
     type: "Conference",
     award: null,
@@ -163,7 +197,8 @@ const publications = [
     title:
       "An Approach to Generating Content-based Recommendation Explanations through a Large Language Model",
     authors: ["Haein Yeo", "Taehyung Noh", "Kyungsik Han"],
-    venue: "KSC",
+    venue: "The Proceedings of the Korea Software Congress (KSC)",
+    month: "December",
     year: 2023,
     type: "Conference",
     award: null,
@@ -174,7 +209,8 @@ const publications = [
     title:
       "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling",
     authors: ["Eunji Kim", "Haein Yeo", "Kyungsik Han"],
-    venue: "KSC",
+    venue: "The Proceedings of the Korea Software Congress (KSC)",
+    month: "December",
     year: 2023,
     type: "Conference",
     award: "Best Presentation Award",

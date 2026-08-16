@@ -82,7 +82,9 @@ export default function Publications() {
                 {pub.venueNote && (
                   <span className="pub__venue-note">({pub.venueNote})</span>
                 )}
-                <span className="pub__year">{pub.year}</span>
+                <span className="pub__year">
+                  {pub.month ? `${pub.month} ${pub.year}` : pub.year}
+                </span>
               </div>
               <div className="pub__extras">
                 {pub.award && <span className="pub__award">{pub.award}</span>}
@@ -94,6 +96,36 @@ export default function Publications() {
                     className="pub__link"
                   >
                     PDF
+                  </a>
+                )}
+                {pub.links.slide && (
+                  <a
+                    href={pub.links.slide}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pub__link"
+                  >
+                    Slides
+                  </a>
+                )}
+                {pub.links.poster && (
+                  <a
+                    href={pub.links.poster}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pub__link"
+                  >
+                    Poster
+                  </a>
+                )}
+                {pub.links.video && (
+                  <a
+                    href={pub.links.video}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pub__link"
+                  >
+                    Video
                   </a>
                 )}
                 {pub.links.doi && (
