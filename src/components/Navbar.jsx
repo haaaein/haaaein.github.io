@@ -16,9 +16,10 @@ export default function Navbar() {
           <NavLink to="/publications" className="navbar__link">
             Publications
           </NavLink>
+          {/* Projects temporarily hidden — restore to re-enable
           <NavLink to="/projects" className="navbar__link">
             Projects
-          </NavLink>
+          </NavLink> */}
           {profile.links.cv && (
             <a
               href={profile.links.cv}

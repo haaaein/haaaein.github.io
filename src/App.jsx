@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Projects from "./components/Projects";
-import ProjectDetail from "./components/ProjectDetail";
+// Projects temporarily hidden — restore imports and routes below to re-enable
+// import Projects from "./components/Projects";
+// import ProjectDetail from "./components/ProjectDetail";
 import Publications from "./components/Publications";
 import Footer from "./components/Footer";
 
@@ -13,8 +14,8 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:slug" element={<ProjectDetail />} />
+          {/* <Route path="/projects" element={<Projects />} /> */}
+          {/* <Route path="/projects/:slug" element={<ProjectDetail />} /> */}
           <Route path="/publications" element={<Publications />} />
         </Routes>
       </main>

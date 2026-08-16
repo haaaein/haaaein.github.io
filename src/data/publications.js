@@ -1,5 +1,17 @@
 const publications = [
   {
+    id: 12,
+    title:
+      "From Preferences to Values: Evaluating Latent User Understanding and Transfer in LLMs",
+    authors: ["Taehyung Noh", "Haein Yeo", "Beejin Son", "Kyungsik Han"],
+    venue: "CIKM",
+    venueNote: "AR 30.9%",
+    year: 2026,
+    type: "Conference",
+    award: null,
+    links: {},
+  },
+  {
     id: 1,
     title:
       '"Can LLMs Persuade Humans with Deception?": From a Deceptive Strategy Taxonomy to a Large-Scale Empirical Study',
@@ -15,39 +27,13 @@ const publications = [
       "Kyungsik Han",
     ],
     venue: "CHI",
+    venueNote: "AR 25.3%",
     year: 2026,
     type: "Conference",
     award: null,
     links: {
       pdf: "/papers/2026_CHI_Deception.pdf",
-    },
-  },
-  {
-    id: 2,
-    title:
-      "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization",
-    authors: ["Taehyung Noh", "Seungwan Jin", "Haein Yeo", "Kyungsik Han"],
-    venue: "AAAI",
-    venueNote: "Oral",
-    year: 2026,
-    type: "Conference",
-    award: null,
-    links: {
-      pdf: "/papers/2026_AAAI_TRIPLE.pdf",
-    },
-  },
-  {
-    id: 3,
-    title:
-      "Externalizing Social-Cognitive Structures for User Modeling: Toward Theory-Driven Profiling with LLMs",
-    authors: ["Taehyung Noh", "Seungwan Jin", "Haein Yeo", "Kyungsik Han"],
-    venue: "CIKM",
-    year: 2025,
-    type: "Conference",
-    award: null,
-    links: {
-      pdf: "/papers/2025_CIKM_TRIPLE.pdf",
-      doi: "https://dl.acm.org/doi/10.1145/3746252.3760965",
+      doi: "https://dl.acm.org/doi/10.1145/3772318.3791188",
     },
   },
   {
@@ -57,12 +43,42 @@ const publications = [
     authors: ["Haein Yeo", "Taehyung Noh", "Kyungsik Han"],
     venue: "Fashion and Textiles",
     venueNote: "SCI(E) Q1, JCR IF = 3.7",
-    year: 2025,
+    year: 2026,
     type: "Journal",
     award: null,
     links: {
       pdf: "/papers/2025_FnT_Explanation.pdf",
       doi: "https://link.springer.com/article/10.1186/s40691-026-00464-z",
+    },
+  },
+  {
+    id: 2,
+    title:
+      "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization",
+    authors: ["Taehyung Noh", "Seungwan Jin", "Haein Yeo", "Kyungsik Han"],
+    venue: "AAAI",
+    venueNote: "Oral, AR 4.4%",
+    year: 2026,
+    type: "Conference",
+    award: null,
+    links: {
+      pdf: "/papers/2026_AAAI_TRIPLE.pdf",
+      doi: "https://doi.org/10.1609/aaai.v40i21.38818",
+    },
+  },
+  {
+    id: 3,
+    title:
+      "Externalizing Social-Cognitive Structures for User Modeling: Toward Theory-Driven Profiling with LLMs",
+    authors: ["Taehyung Noh", "Seungwan Jin", "Haein Yeo", "Kyungsik Han"],
+    venue: "CIKM",
+    venueNote: "AR 30.6%",
+    year: 2025,
+    type: "Conference",
+    award: null,
+    links: {
+      pdf: "/papers/2025_CIKM_TRIPLE.pdf",
+      doi: "https://dl.acm.org/doi/10.1145/3746252.3760965",
     },
   },
   {
@@ -107,9 +123,9 @@ const publications = [
     title:
       "A Study on the Personal Fashion Preference in Social Media using Meta-path based Heterogeneous Graph Modeling",
     authors: ["Eunji Kim", "Haein Yeo", "Kyungsik Han"],
-    venue: "Journal of KIISE",
+    venue: "KTCP (KIISE Transactions on Computing Practices)",
     venueNote: "Invited paper from KSC 2023",
-    year: 2024,
+    year: 2025,
     type: "Journal",
     award: null,
     links: {
@@ -120,7 +136,7 @@ const publications = [
   {
     id: 7,
     title:
-      "A Study on User Perception and Experience Differences in Recommendation Results by Domain",
+      "A Study on User Perception and Experience Differences in Recommendation Results by Domain Expertise: The Case of Fashion Domains",
     authors: ["Taehyung Noh", "Haein Yeo", "Myungjin Kim", "Kyungsik Han"],
     venue: "CHI LBW",
     year: 2023,
