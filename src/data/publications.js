@@ -118,6 +118,8 @@ const publications = [
     ],
     venue:
       "Telecommunications Technology Association (TTA), Center for Trustworthy AI",
+    venueNote:
+      "Kor: ISBN 979-11-89545-81-9, Eng: ISBN 979-11-89545-82-6",
     month: "February",
     year: 2025,
     type: "Report/Book",
