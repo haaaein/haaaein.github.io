@@ -17,7 +17,7 @@ const publications = [
     id: 13,
     title:
       "TIGRIS: Integrating Policy Knowledge Graphs and Theory of Change for Institutionally Grounded Policy Impact Simulation",
-    authors: ["Haein Yeo", "Junghyun Kim", "Beejin Son", "Kyungsik Han"],
+    authors: ["Haein Yeo*", "Junghyun Kim*", "Beejin Son", "Kyungsik Han"],
     venue:
       "Findings of the Association for Computational Linguistics: EMNLP",
     venueNote: "* Equal contribution",

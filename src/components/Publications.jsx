@@ -32,7 +32,7 @@ export default function Publications() {
       : publications.filter((pub) => pub.type === activeCategory);
 
   const highlightName = (name) => {
-    if (name === "Haein Yeo") {
+    if (name.replace(/\*+$/, "") === "Haein Yeo") {
       return (
         <span key={name} className="pub__author--highlight">
           {name}
