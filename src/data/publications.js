@@ -6,7 +6,7 @@ const publications = [
     authors: ["Taehyung Noh", "Haein Yeo", "Beejin Son", "Kyungsik Han"],
     venue:
       "ACM International Conference on Information and Knowledge Management (CIKM)",
-    venueNote: "Acceptance Rate 30.9%",
+    // venueNote: "Acceptance Rate 30.9%",
     month: "November",
     year: 2026,
     type: "Conference",
@@ -44,7 +44,7 @@ const publications = [
     ],
     venue:
       "ACM International Conference on Human Factors in Computing Systems (CHI)",
-    venueNote: "Acceptance Rate 25.3%",
+    // venueNote: "Acceptance Rate 25.3%",
     month: "April",
     year: 2026,
     type: "Conference",
@@ -79,7 +79,8 @@ const publications = [
       "TRIPLE: Theory-Driven Integration of Planned and Habitual Behaviors for LLM-based Personalization",
     authors: ["Taehyung Noh", "Seungwan Jin", "Haein Yeo", "Kyungsik Han"],
     venue: "The Association for the Advancement of Artificial Intelligence (AAAI)",
-    venueNote: "Oral, Top 4.4% Oral Acceptance Rate",
+    venueNote: "Oral, Top 4.4%",
+    // venueNote (original): "Oral, Top 4.4% Oral Acceptance Rate",
     month: "January",
     year: 2026,
     type: "Conference",
@@ -101,7 +102,7 @@ const publications = [
     authors: ["Taehyung Noh", "Seungwan Jin", "Haein Yeo", "Kyungsik Han"],
     venue:
       "ACM International Conference on Information and Knowledge Management (CIKM)",
-    venueNote: "Acceptance Rate 30.6%",
+    // venueNote: "Acceptance Rate 30.6%",
     month: "November",
     year: 2025,
     type: "Conference",
