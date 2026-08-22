@@ -76,6 +76,9 @@ export default function Publications() {
                     {i < pub.authors.length - 1 ? ", " : ""}
                   </span>
                 ))}
+                {pub.authorsNote && (
+                  <span className="pub__authors-note"> ({pub.authorsNote})</span>
+                )}
               </p>
               <div className="pub__venue">
                 <span className="pub__venue-name">{pub.venue}</span>
