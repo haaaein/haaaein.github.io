@@ -14,6 +14,20 @@ const publications = [
     links: {},
   },
   {
+    id: 13,
+    title:
+      "TIGRIS: Integrating Policy Knowledge Graphs and Theory of Change for Institutionally Grounded Policy Impact Simulation",
+    authors: ["Haein Yeo", "Junghyun Kim", "Beejin Son", "Kyungsik Han"],
+    venue:
+      "Findings of the Association for Computational Linguistics: EMNLP",
+    venueNote: "* Equal contribution",
+    month: "October",
+    year: 2026,
+    type: "Conference",
+    award: null,
+    links: {},
+  },
+  {
     id: 1,
     title:
       '"Can LLMs Persuade Humans with Deception?": From a Deceptive Strategy Taxonomy to a Large-Scale Empirical Study',
