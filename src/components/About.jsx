@@ -90,23 +90,6 @@ export default function About() {
           }
         </div>
 
-        {Array.isArray(profile.news) && profile.news.length > 0 && (
-          <div className="about__news fade-in" style={{ "--delay": "0.4s" }}>
-            <h2 className="about__section-title">News</h2>
-            <ul className="about__news-list">
-              {profile.news.map((item, i) => (
-                <li key={i} className="about__news-item">
-                  <span className="about__news-badge">{item.date}</span>
-                  <p className="about__news-text">
-                    <strong>{item.title}</strong>
-                    {item.detail && <> — {item.detail}</>}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-
         <div className="about__research fade-in" style={{ "--delay": "0.45s" }}>
           <h2 className="about__section-title">Research Interests</h2>
           <div className="about__tags">

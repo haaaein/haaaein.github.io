@@ -14,14 +14,6 @@ const profile = {
     "AI for Policy & Governance",
     "AI for Social Good",
   ],
-  news: [
-    {
-      date: "2026",
-      title: "National Research Foundation (NRF) of Korea Ph.D. Fellowship (Sep. 2026 – Aug. 2028)",
-      detail:
-        'Selected with the proposal "A Study on User-Profile-based Simulation and Safety Evaluation of Deceptive Persuasion Risk in Large Language Models for Socio-Technical Alignment."',
-    },
-  ],
   links: {
     googleScholar: "https://scholar.google.com/citations?user=ORZoZv4AAAAJ&hl=en",
     github: "https://github.com/haaaein",
