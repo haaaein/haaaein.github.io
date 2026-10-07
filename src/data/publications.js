@@ -11,7 +11,10 @@ const publications = [
     year: 2026,
     type: "Conference",
     award: null,
-    links: {},
+    links: {
+      pdf: "/papers/2026_CIKM_PALETTE.pdf",
+      doi: "https://doi.org/10.1145/3799682.3840043",
+    },
   },
   {
     id: 13,
@@ -25,7 +28,9 @@ const publications = [
     year: 2026,
     type: "Conference",
     award: null,
-    links: {},
+    links: {
+      pdf: "/papers/2026_EMNLP_TIGRIS.pdf",
+    },
   },
   {
     id: 1,
