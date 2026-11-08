@@ -13,6 +13,7 @@ const publications = [
     award: null,
     links: {
       pdf: "/papers/2026_CIKM_PALETTE.pdf",
+      doi: "https://doi.org/10.1145/3799682.3840043",
     },
   },
   {

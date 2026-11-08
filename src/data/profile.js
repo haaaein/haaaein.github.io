@@ -3,7 +3,7 @@ const profile = {
   nameKo: "여해인",
   role: "AI Researcher",
   affiliation: "Department of Artificial Intelligence, Hanyang University",
-  degree: "Ph.D Student",
+  degree: "Ph.D. Candidate",
   advisor: "Advisor: Kyungsik Han",
   email: "haeinyeo@hanyang.ac.kr",
   description:

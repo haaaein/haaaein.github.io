@@ -72,7 +72,7 @@ export default function About() {
 
         <div className="about__description fade-in" style={{ "--delay": "0.3s" }}>
           <p>
-            Hello! I'm a Ph.D student in the Department of Artificial Intelligence at Hanyang University.
+            Hello! I'm a Ph.D. candidate in the Department of Artificial Intelligence at Hanyang University.
             I am advised by{" "}
             <a href="https://scholar.google.com/citations?user=htyp0xsAAAAJ&hl=ko" target="_blank" rel="noopener noreferrer" className="about__link">
               Prof. Kyungsik Han
@@ -131,6 +131,22 @@ export default function About() {
             <div className="about__gallery-item">
               <img src="/images/aaai-singapore-3.jpg" alt="AAAI 2026, Singapore" />
               <span className="about__gallery-caption">AAAI 2026, Singapore</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/chi-barcelona-1.jpg" alt="CHI 2026, Barcelona, Spain" />
+              <span className="about__gallery-caption">CHI 2026, Barcelona, Spain</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/chi-barcelona-2.jpg" alt="CHI 2026, Barcelona, Spain" />
+              <span className="about__gallery-caption">CHI 2026, Barcelona, Spain</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/emnlp-budapest-1.jpg" alt="EMNLP 2026, Budapest, Hungary" />
+              <span className="about__gallery-caption">EMNLP 2026, Budapest, Hungary</span>
+            </div>
+            <div className="about__gallery-item">
+              <img src="/images/emnlp-budapest-2.jpg" alt="EMNLP 2026, Budapest, Hungary" />
+              <span className="about__gallery-caption">EMNLP 2026, Budapest, Hungary</span>
             </div>
           </div>
         </div>
