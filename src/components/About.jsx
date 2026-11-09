@@ -1,6 +1,13 @@
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import profile from "../data/profile";
+import publications from "../data/publications";
 import "./About.css";
+import "./Publications.css";
+
+const selectedPublications = (profile.selectedPublications || [])
+  .map((id) => publications.find((pub) => pub.id === id))
+  .filter(Boolean);
 
 export default function About() {
   const sectionRef = useRef(null);
@@ -100,6 +107,44 @@ export default function About() {
             ))}
           </div>
         </div>
+
+        {selectedPublications.length > 0 && (
+          <div className="about__selected fade-in" style={{ "--delay": "0.5s" }}>
+            <h2 className="about__section-title">Selected Publications</h2>
+            <div className="about__selected-list">
+              {selectedPublications.map((pub) => (
+                <div key={pub.id} className="about__selected-item">
+                  {pub.venueShort && (
+                    <span className="pub__badge">{pub.venueShort}</span>
+                  )}
+                  <a
+                    href={pub.links.pdf || pub.links.doi}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="about__selected-title"
+                  >
+                    {pub.title}
+                  </a>
+                  <p className="about__selected-authors">
+                    {pub.authors.map((author, i) => (
+                      <span key={i}>
+                        {author.replace(/\*+$/, "") === "Haein Yeo" ? (
+                          <span className="pub__author--highlight">{author}</span>
+                        ) : (
+                          author
+                        )}
+                        {i < pub.authors.length - 1 ? ", " : ""}
+                      </span>
+                    ))}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <Link to="/publications" className="about__link about__selected-more">
+              View all publications →
+            </Link>
+          </div>
+        )}
 
         <div className="about__gallery fade-in" style={{ "--delay": "0.6s" }}>
           <h2 className="about__section-title">Conference Gallery</h2>

@@ -21,6 +21,8 @@ const profile = {
     cv: "/cv.pdf",
   },
   profileImage: "/images/profile.jpg",
+  // Shown on the home page, in this order (publication ids)
+  selectedPublications: [1, 13, 12, 2],
 };
 
 export default profile;

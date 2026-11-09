@@ -131,6 +131,55 @@
   gap: 16px;
 }
 
+.about__selected {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about__selected-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__selected-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.about__selected-item:first-child {
+  padding-top: 0;
+}
+
+.about__selected-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a1a1a;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.about__selected-title:hover {
+  text-decoration: underline;
+}
+
+.about__selected-authors {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #2a2a2a;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.about__selected-more {
+  align-self: flex-start;
+  font-size: 14px;
+}
+
 .about__section-title {
   font-family: "Inter", sans-serif;
   font-weight: 700;
