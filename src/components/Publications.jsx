@@ -68,6 +68,9 @@ export default function Publications() {
             style={{ "--delay": `${0.15 + index * 0.08}s` }}
           >
             <div className="pub__main">
+              {pub.venueShort && (
+                <span className="pub__badge">{pub.venueShort}</span>
+              )}
               <h3 className="pub__title">{pub.title}</h3>
               <p className="pub__authors">
                 {pub.authors.map((author, i) => (

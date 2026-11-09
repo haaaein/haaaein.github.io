@@ -7,6 +7,7 @@ const publications = [
     venue:
       "ACM International Conference on Information and Knowledge Management (CIKM)",
     // venueNote: "Acceptance Rate 30.9%",
+    venueShort: "CIKM 2026",
     month: "November",
     year: 2026,
     type: "Conference",
@@ -24,6 +25,7 @@ const publications = [
     authorsNote: "* Equal contribution",
     venue:
       "Findings of the Association for Computational Linguistics: EMNLP",
+    venueShort: "EMNLP 2026 Findings",
     month: "October",
     year: 2026,
     type: "Conference",
@@ -50,6 +52,7 @@ const publications = [
     venue:
       "ACM International Conference on Human Factors in Computing Systems (CHI)",
     // venueNote: "Acceptance Rate 25.3%",
+    venueShort: "CHI 2026",
     month: "April",
     year: 2026,
     type: "Conference",
@@ -86,6 +89,7 @@ const publications = [
     venue: "The Association for the Advancement of Artificial Intelligence (AAAI)",
     venueNote: "Oral, Top 4.4%",
     // venueNote (original): "Oral, Top 4.4% Oral Acceptance Rate",
+    venueShort: "AAAI 2026",
     month: "January",
     year: 2026,
     type: "Conference",
@@ -108,6 +112,7 @@ const publications = [
     venue:
       "ACM International Conference on Information and Knowledge Management (CIKM)",
     // venueNote: "Acceptance Rate 30.6%",
+    venueShort: "CIKM 2025",
     month: "November",
     year: 2025,
     type: "Conference",
@@ -155,6 +160,7 @@ const publications = [
     authors: ["Haein Yeo", "Taehyung Noh", "Seungwan Jin", "Kyungsik Han"],
     venue: "International Conference on Computational Linguistics (COLING)",
     venueNote: "Oral, Top 7.9%",
+    venueShort: "COLING 2025",
     month: "January",
     year: 2025,
     type: "Conference",
@@ -190,6 +196,7 @@ const publications = [
     authors: ["Taehyung Noh", "Haein Yeo", "Myungjin Kim", "Kyungsik Han"],
     venue:
       "ACM International Conference on Human Factors in Computing Systems (CHI LBW)",
+    venueShort: "CHI 2023 LBW",
     month: "April",
     year: 2023,
     type: "Conference",
