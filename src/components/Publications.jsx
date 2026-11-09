@@ -5,7 +5,7 @@ import "./Publications.css";
 const CATEGORIES = ["All", "Conference", "Journal", "Report/Book"];
 
 export default function Publications() {
-  const [activeCategory, setActiveCategory] = useState("All");
+  const [activeCategory, setActiveCategory] = useState("Conference");
   const sectionRef = useRef(null);
 
   useEffect(() => {
